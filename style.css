@@ -1,0 +1,29 @@
+body {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: aqua;
+}
+
+div {
+  height: 80px;
+  width: 80px;
+  width: 100px;
+  margin-bottom: 5px;
+  margin-left: 10px;
+}
+
+div:nth-child(1) {
+  background-color: hsl(0, 0%, 0%);
+}
+
+div:nth-child(2) {
+  background-color: hsl(0, 0%, 20%);
+}
+
+div:nth-child(3) {
+  background-color: hsl(0, 0%, 40%);
+}
+
+div:nth-child(4) {
+  background-color: hsl(0, 0%, 60%);
+}
